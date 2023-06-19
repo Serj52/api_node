@@ -1,4 +1,5 @@
 # Logs
+tsconfig.json
 logs
 *.log
 npm-debug.log*

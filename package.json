@@ -1,0 +1,19 @@
+{
+  "name": "api_node",
+  "version": "1.0.0",
+  "description": "Написать сервер (без использования Express) работы с телефонными контактами\r из книжки контактов. Получение в формате JSON. Хранятся данные в ОЗУ (могут\r считываться из файла или хардкод).\r a) Контакт имеет: id, ФИО, номер, адрес\r b) API GET:\r i) получить все контакты\r ii) контакт по id, по фио\r iii) сортировка по фио (по убыванию и возрастанию)\r iv) сортировка по адресам\r c) API POST:\r i) добавить новый контакт\r d) API DELETE:\r i) удалить контакт по id\r ii) удалить контакт(ы) по ф",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.1"
+  }
+}
